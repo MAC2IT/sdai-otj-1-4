@@ -11,12 +11,15 @@
     <img src="./assets/images/cesar-bretana-gonzalez-a3dhUC7EhYg-unsplash.jpg" alt="experince the love of food in the streets you love" width="700px">
     <img src="./assets/images/pexels-edwardeyer-1247755.jpg" alt="the best bite you'll ever eat" width="700px">
     <h1> Dev Dish Food Truck & Restaurant</h1>
-    <div class="navbar">
-        <a href="#about-us">About Us</a>
-        <a href="#dev-favorites">Menu</a>
-        <a href="#location">Location</a>
-        <a href="#hours">Hours</a>
-    </div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#dev-favorites">Menu</a></li>
+            <li><a href="#location">Location</a></li>
+            <li><a href="#hours">Hours</a></li>
+        </ul>
+    </nav>
+    
     
 
         
@@ -35,61 +38,109 @@
         <!-- Additional content for the menu goes here -->
     </section>
     
+    <section id="quarterly-menu" class="menu-section">
+        <header>
             <h2>The Dev Dish Quarterly Menu</h2>
-        <h3>WRAPS</h3>
-        <li>Function Fries</li>
-        <p>Buffalo chicken, romaine lettuce, tomatoes, carrots, ranch, blue cheese</p>
-        <li>Loop Wrap</li>
-            <p>Vegetarian. Hummus, romaine lettuce, sun-dried tomatoes, Kalamata olives, feta cheese, tzatziki sauce
-            </p>
-            <li>Stack Overflow</li>
-            <p>Jalapeno tortilla, turkey chili, onions, cheddar cheese, avocado</p>
-            <li>Recursive Roll</li>
-            <p>Smoked salmon, cream cheese, cucumber, dill, and baby spinach
-            </p>
-            <li>Binary Bites</li>
-            <p>Marinated pork, pickled carrots, cucumber, cilantro, mint, fresno chiles, mayonnaise</p>
-            <li>Git Wrap</li>
-            <p>Vegetarian. Falafel, red onion, romaine lettuce, tomato, and tzatziki sauce</p>
-            <li>Note</li>
-            <p>All wraps, except Stack Overflow are served on your choice of flour or corn tortilla.</p>
+        </header>
+        
+        <div class="menu-category">
+            <h3>WRAPS</h3>
+            
+            <div class="menu-item">
+                <h4>Function Fries</h4>
+                <p>Buffalo chicken, romaine lettuce, tomatoes, carrots, ranch, blue cheese</p>
+            </div>
+            
+            <div class="menu-item">
+                <h4>Loop Wrap</h4>
+                <p>Vegetarian. Hummus, romaine lettuce, sun-dried tomatoes, Kalamata olives, feta cheese, tzatziki sauce</p>
+            </div>
+            
+            <div class="menu-item">
+                <h4>Stack Overflow</h4>
+                <p>Jalapeno tortilla, turkey chili, onions, cheddar cheese, avocado</p>
+            </div>
+            
+            <div class="menu-item">
+                <h4>Recursive Roll</h4>
+                <p>Smoked salmon, cream cheese, cucumber, dill, and baby spinach</p>
+            </div>
+            
+            <div class="menu-item">
+                <h4>Binary Bites</h4>
+                <p>Marinated pork, pickled carrots, cucumber, cilantro, mint, fresno chiles, mayonnaise</p>
+            </div>
+            
+            <div class="menu-item">
+                <h4>Git Wrap</h4>
+                <p>Vegetarian. Falafel, red onion, romaine lettuce, tomato, and tzatziki sauce</p>
+            </div>
+            
+            <div class="menu-note">
+                <p><strong>Note:</strong> All wraps, except Stack Overflow, are served on your choice of flour or corn tortilla.</p>
+            </div>
+        </div>
+    
+        <div class="menu-category">
             <h3>SIDES</h3>
-            <li>Bug-Free Fries</li>
-            <p>Just a side of frires</p>
-            <li>Three-Layer Cheese Fries</li>
-            <p>Fries topped with havarti and dill cheese, pastrami, Russian dressing, pickled onions and peppers, pickled jalapeno</p>
-            <li>Golden Ratio Fries</li>
-            <p>Fries topped with havarti and dill cheese, pastrami, Russian dressing, pickled onions and peppers, pickled jalapeno</p>
-            <li>Compile Chips</li>
-            <p>Tortilla chips and salsa verde</p>
+            
+            <div class="menu-item">
+                <h4>Bug-Free Fries</h4>
+                <p>Just a side of fries</p>
+            </div>
+            
+            <div class="menu-item">
+                <h4>Three-Layer Cheese Fries</h4>
+                <p>Fries topped with havarti and dill cheese, pastrami, Russian dressing, pickled onions and peppers, pickled jalapeno</p>
+            </div>
+            
+            <div class="menu-item">
+                <h4>Golden Ratio Fries</h4>
+                <p>Fries topped with havarti and dill cheese, pastrami, Russian dressing, pickled onions and peppers, pickled jalapeno</p>
+            </div>
+            
+            <div class="menu-item">
+                <h4>Compile Chips</h4>
+                <p>Tortilla chips and salsa verde</p>
+            </div>
+        </div>
+    </section>
     
-        <div class="section" id="dev-favorites">
-            <h2>Developer's Favorites</h2>
-            <p>Enjoy Dev Dish fan favorite menu items at local events or book us for a visit to your neighborhood or for your special occasion.</p>
-            <ul>
+            <section id="dev-favorites" class="section">
+                <header>
+                    <h2>Developer's Favorites</h2>
+                </header>
+                <p>Enjoy Dev Dish fan favorite menu items at local events or book us for a visit to your neighborhood or for your special occasion.</p>
+                <ul>
+                    <!-- List items go here -->
                 
-        </div>
+            </section>
+            
 
     
-        <div class="section" id="location">
-            <h2>Location</h2>
-            <p>511 Tristin Isle Park Hudsonton, Michigan</p>
-        </div>
+            <section id="location" class="section">
+                <header>
+                    <h2>Location</h2>
+                </header>
+                <address>
+                    511 Tristin Isle Park<br>
+                    Hudsonton, Michigan
+                </address>
+            </section>
+            
 
     
-        <div class="section" id="hours">
-            <h2>Hours</h2>
-            <ul>
-                <li><span>Monday</span> - <span>10:00 a.m.</span> to <span>10:30 p.m.</span></li>
-                <li><span>Tuesday</span> - <span>10:00 a.m.</span> to <span>10:30 p.m.</span></li>
-                <li><span>Wednesday</span> - <span>10:00 a.m.</span> to <span>10:30 p.m.</span></li>
-                <li><span>Thursday</span> - <span>10:00 a.m.</span> to <span>10:30 p.m.</span></li>
-                <li><span>Friday</span> - <span>10:00 a.m.</span> to <span>11:30 p.m.</span></li>
-                <li><span>Saturday</span> - <span>10:00 a.m.</span> to <span>12:30 p.m.</span></li>
-              </ul>              
-            <p></p>
-        </div>
-
-    </div>
-</body>
-</html>
+            <section id="hours" class="section">
+                <header>
+                    <h2>Hours</h2>
+                </header>
+                <ul>
+                    <li>Monday - 10:00 a.m. to 10:30 p.m.</li>
+                    <li>Tuesday - 10:00 a.m. to 10:30 p.m.</li>
+                    <li>Wednesday - 10:00 a.m. to 10:30 p.m.</li>
+                    <li>Thursday - 10:00 a.m. to 10:30 p.m.</li>
+                    <li>Friday - 10:00 a.m. to 11:30 p.m.</li>
+                    <li>Saturday - 10:00 a.m. to 12:30 p.m.</li>
+                </ul>
+            </section>
+            
