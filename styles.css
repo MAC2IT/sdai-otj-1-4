@@ -1,0 +1,38 @@
+h3, h4 {
+    color: royalblue;
+}
+
+.menu-title {
+    width: 800px;
+    margin: 0 auto; /* Centers the element */
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif; /* Replace with desired font */
+    font-size: 2rem; /* Adjust size as needed */
+    color: #1b03a3; /* Neon blue color */
+    margin: 20px 0; /* Adjust margins as desired */
+}
+
+p {
+    color: #89CFF0; /* Baby blue color */
+}
+p {
+    color: #89CFF0; /* Baby blue color */
+    line-height: 1.6; /* Adjusts line height for better readability */
+}
+h2, h3, h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 0 15px; /* Optional padding for indent */
+    line-height: 1.6; /* Enhances readability */
+}
+
+
