@@ -34,5 +34,20 @@ p {
     padding: 0 15px; /* Optional padding for indent */
     line-height: 1.6; /* Enhances readability */
 }
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Space between images */
+    padding: 10px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    width: 30%; /* Each image takes 30% width */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 
 
